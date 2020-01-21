@@ -2,14 +2,12 @@
   "name": "nasa-apod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sheikh-a.github.io/Nasa_Final/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "axios": "^0.19.1",
     "babel": "^6.23.0",
     "create-react-app": "^3.3.0",
     "fontawesome": "^5.6.3",
-    "gh-pages": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.7.1",
@@ -20,8 +18,6 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
